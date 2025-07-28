@@ -143,6 +143,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.UpdateProfileTest&quot;/&gt;
@@ -189,12 +192,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'updateHeadlineAndSearch')
 data.setCell(0, 2, 'tests.UpdateProfileTest')
-data.setCell(0, 3, 45110);
+data.setCell(0, 3, 25490);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 45 seconds</span>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -227,15 +230,15 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">setup(public void tests.UpdateProfileTest.updateHeadlineAndSearch())</span>
-                <span class="method-start">559 ms</span>
+                <span class="method-start">247 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">updateHeadlineAndSearch</span>
-                <span class="method-start">4441 ms</span>
+                <span class="method-start">4209 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">49558 ms</span>
+                <span class="method-start">29703 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
