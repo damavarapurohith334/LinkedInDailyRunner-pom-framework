@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-29T00:53:43 IST" name="Suite" finished-at="2025-07-29T00:54:13 IST" duration-ms="30338">
+  <suite started-at="2025-10-24T19:11:09 IST" name="Default suite" finished-at="2025-10-24T19:11:52 IST" duration-ms="43520">
     <groups>
     </groups>
-    <test started-at="2025-07-29T00:53:43 IST" name="Test" finished-at="2025-07-29T00:54:13 IST" duration-ms="30338">
+    <test started-at="2025-10-24T19:11:09 IST" name="Default test" finished-at="2025-10-24T19:11:52 IST" duration-ms="43520">
       <class name="tests.UpdateProfileTest">
-        <test-method is-config="true" signature="loadFiles()[pri:0, instance:tests.UpdateProfileTest@5f049ea1]" started-at="2025-07-29T00:53:43 IST" name="loadFiles" finished-at="2025-07-29T00:53:43 IST" duration-ms="227" status="PASS">
+        <test-method is-config="true" signature="loadFiles()[pri:0, instance:tests.UpdateProfileTest@16eb3ea3]" started-at="2025-10-24T19:11:09 IST" name="loadFiles" finished-at="2025-10-24T19:11:09 IST" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadFiles -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.UpdateProfileTest@5f049ea1]" started-at="2025-07-29T00:53:43 IST" name="setup" finished-at="2025-07-29T00:53:47 IST" duration-ms="3961" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.UpdateProfileTest@16eb3ea3]" started-at="2025-10-24T19:11:09 IST" name="setup" finished-at="2025-10-24T19:11:19 IST" duration-ms="10288" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="updateHeadlineAndSearch()[pri:0, instance:tests.UpdateProfileTest@5f049ea1]" started-at="2025-07-29T00:53:47 IST" name="updateHeadlineAndSearch" finished-at="2025-07-29T00:54:12 IST" duration-ms="25490" status="PASS">
+        <test-method signature="updateHeadlineAndSearch()[pri:0, instance:tests.UpdateProfileTest@16eb3ea3]" started-at="2025-10-24T19:11:19 IST" name="updateHeadlineAndSearch" finished-at="2025-10-24T19:11:52 IST" duration-ms="32643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateHeadlineAndSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UpdateProfileTest@5f049ea1]" started-at="2025-07-29T00:54:12 IST" name="tearDown" finished-at="2025-07-29T00:54:13 IST" duration-ms="623" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UpdateProfileTest@16eb3ea3]" started-at="2025-10-24T19:11:52 IST" name="tearDown" finished-at="2025-10-24T19:11:52 IST" duration-ms="311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.UpdateProfileTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -24,7 +24,7 @@ public class UpdateProfileTest extends BaseTest {
             "https://www.linkedin.com/in/rohith-damavarapu-72290b215/edit/forms/intro/new/?profileFormEntryPoint=PROFILE_SECTION",
             locatorsProp.getProperty("text_box"),
             configProp.getProperty("update_message"),
-            "//button[@class='artdeco-button artdeco-button--2 artdeco-button--primary ember-view']"
+            "//span[text()='Save']"
         );
 
         String feedUrl = "https://www.linkedin.com/feed/";
